@@ -1,27 +1,90 @@
 aid: genesis-global
+
 name: Genesis
-description: 'Genesis is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by accel, gv, insight-partners) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://genesis.global/wp-content/uploads/2025/05/Homepage.png
+
+description: 'Genesis Global provides a platform that enables financial institutions to build high‑performance, resilient and secure applications for capital‑markets workflows. It combines preferred AI with reusable components to support single‑dealer platforms, institutional middle‑office, sales‑trader, primary‑markets trading, order and trade management, electronic trading venues and reporting/reconciliation. The platform offers developer resources, a launchpad and certification through its Genesis Academy.'
+
 url: https://raw.githubusercontent.com/api-evangelist/genesis-global/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
-- Company
-apis: []
+- AI Architecture
+- Capital Markets
+- Financial Institutions
+- Developer Portal
+- Trading Platforms
+- Middle Office
+- Electronic Trading
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+common:
+- type: LLMsTxt
+  url: llms/genesis-global-llms.txt
+- type: Hosts
+  url: hosts/genesis-global-hosts.yml
+- type: Vendors
+  url: vendors/genesis-global-vendors.yml
+- type: TermsOfService
+  url: https://genesis.global/terms-of-use/
+- type: Support
+  url: https://support.genesis.global/hc/en-us
+- type: PrivacyPolicy
+  url: https://genesis.global/privacy-policy/
+- type: Newsroom
+  url: https://genesis.global/about/newsroom/
+- type: DeveloperPortal
+  url: https://genesis.global/platform/developer-portal/
+- type: Blog
+  url: https://genesis.global/resources/blog/
+- type: Documentation
+  url: https://docs.genesis.global/
+- type: DomainSecurity
+  url: security/genesis-global-domain-security.yml
+- type: Website
+  url: https://genesis.global/
+
+apis: []
+
 x-backed-by:
 - accel
 - gv
 - insight-partners
-common:
-- type: Website
-  url: https://genesis.global/
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-25'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://support.genesis.global/mcp
+    status: 401
+  - url: https://genesis.global/
+    status: 200
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

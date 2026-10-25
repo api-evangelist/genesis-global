@@ -1,0 +1,18 @@
+generated: '2026-10-25'
+method: none
+source:
+- https://zapier.com/apps/genesis-global/integrations
+- https://zapier.com/apps/genesis/integrations
+- https://n8n.io/integrations/genesis-global/
+- https://composio.dev/toolkits/genesis-global
+- https://monid.ai/tools/genesis-global
+checked:
+- https://composio.dev/toolkits/genesis-global
+- https://monid.ai/tools/genesis-global
+- https://n8n.io/integrations/genesis-global/
+- https://zapier.com/apps/genesis-global/integrations
+- https://zapier.com/apps/genesis/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

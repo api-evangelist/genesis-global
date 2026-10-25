@@ -1,0 +1,50 @@
+# Genesis Global — The Genesis Application Platform
+
+> Genesis Global provides an AI-native application development platform purpose-built for financial markets. The platform combines pre-built components and microservices with developer tools and documentation to help teams build, test, deploy, and operate high-performance, compliant applications faster.
+
+Important notes:
+- Target audience: developers, architects, and technical stakeholders in capital markets.
+- Core pillars: component-driven framework, high-performance runtime, strong security/compliance, and integrated AI with guardrails.
+- For hands-on access, use the Developer Portal (signup required).
+
+## Start here
+- [Homepage](https://genesis.global/): Overview of the platform and use cases.
+- [Platform overview](https://genesis.global/platform/): Capabilities, framework, runtime, marketplace.
+- [Developer Portal](https://genesis.global/developer-portal/): Tools, resources, and access.
+- [Documentation index](https://docs.genesis.global/): Official docs hub.
+
+## Quickstarts & setup
+- [Platform overview (docs)](https://docs.genesis.global/docs/develop/platform-overview/): Architecture & concepts.
+- [Genesis Start (local run)](https://docs.genesis.global/docs/develop/development-environment/genesis-start/): Run and preview apps locally.
+- [Data model](https://docs.genesis.global/docs/develop/server-capabilities/data-model/): Define entities/tables for applications.
+
+## Building blocks (selected docs)
+- [Client filters](https://docs.genesis.global/docs/develop/client-capabilities/filters/): Client-side filtering utilities.
+- [Direct component styling](https://docs.genesis.global/docs/develop/client-capabilities/styling/direct-customization-genesis-components/): UI customization.
+- [APIs (tag index)](https://docs.genesis.global/docs/tags/api/): API-related documentation.
+- [Database (tag index)](https://docs.genesis.global/docs/tags/database/): DB config, utilities, and setup.
+- [Testing (tag index)](https://docs.genesis.global/docs/tags/test/): Unit/E2E testing framework.
+
+## Marketplace & solutions
+- [Genesis Marketplace (hub)](https://genesis.global/platform/): Links to components, templates, and solutions.
+- [Document Management (solution)](https://genesis.global/platform/marketplace/document-management/): Unified interface across storage engines.
+- [Document Generation (solution)](https://genesis.global/platform/marketplace/document-generation/): Generate TXT/HTML/XLSX/PDF from app data.
+- [Matcher (solution)](https://genesis.global/platform/marketplace/matcher/): Real-time matching & reconciliation.
+- [Trade Allocation Manager](https://genesis.global/trade-allocation-manager/): Post-trade allocation & confirmation workflows.
+
+## News, blog & releases
+- [Newsroom](https://genesis.global/about/newsroom/): Company announcements.
+- [Platform releases (blog tag)](https://genesis.global/blog-tags/platform/): Recent release notes.
+- [Why beyond low-code (blog)](https://genesis.global/resources/blog/why-complex-financial-markets-require-a-new-framework-for-software-development/): Platform vision & approach.
+
+## Community & contributions
+- [Docs repository (GitHub)](https://github.com/genesiscommunitysuccess/docs): Public docs source and contribution info.
+
+## Legal & policies
+- [Privacy Policy](https://genesis.global/privacy-policy/)
+- [Terms of Use](https://genesis.global/terms-of-use/)
+
+## Optional
+- [Developer portal sign-up](https://genesis.global/developer-portal-sign-up/): Create an account for access and trials.
+- [Demos](https://genesis.global/resources/demos/): Video demos and solution walk-throughs.
+- [Partners (example: HERE)](https://genesis.global/partners/here/): Partner ecosystem.
